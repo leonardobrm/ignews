@@ -1,5 +1,6 @@
 import Head from 'next/head'
+import style from '../styles/home.module.scss'
 
 export default function Home() {
-  return <h1>Olá mundo</h1>
+  return <h1 className={style.title}>Olá mundo</h1>
 }
